@@ -26,3 +26,27 @@ you do not need different HTTP verbs to describe the operation. Instead, you ind
 
 
 server needs to do additional processing to parse complex queries and verify parameters. Optimizing performance of GraphQL queries can be difficult, too. 
+
+					To share data about events in real time, there are three common mechanisms: WebHooks, WebSockets, and HTTP Streaming.
+					
+					WebHooks
+					A WebHook is just a URL that accepts an HTTP POST (or GET, PUT,
+					or DELETE). An API provider implementing WebHooks will simply
+					POST a message to the configured URL when something happens.
+					Unlike with request–response APIs, with WebHooks, you can
+					receive updates in real time. 
+					
+					Failures and retries
+					Security
+					Firewalls 
+					Applications running behind firewalls can access APIs over HTTP, but they are unable to receive inbound traffic.
+					Noise 
+					Typically, each WebHook call represents one single event. When there are thousands of events happening in a short time that need to be sent via a single WebHook, it can be noisy
+					
+					
+					WebSockets 
+					WebSocket is a protocol used to establish a two-way streaming com‐ munication channel over a single Transport Control Protocol (TCP) connection. Although the protocol is generally used between a web client (e.g., a browser) and a server, it’s sometimes used for serverto-server communication, as well.
+					
+					on mobile devices or in regions where connectivity can be spotty. Clients are supposed to keep the connection alive. If the connection dies, the client needs to reinitiate it. 
+					There are also issues related to scalability
+					
