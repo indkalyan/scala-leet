@@ -1,4 +1,5 @@
 package com.kal.leet
+package com.kal.leet
 
 object CountWays extends App {
 

@@ -1,4 +1,4 @@
-package com.kal.leet;
+package com.kal.leet.com.kal.livy;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;

@@ -93,4 +93,17 @@ allowing applications to use the same API for different security mechanisms with
 
 
 
+https://github.com/sumanentc/spark-livy/blob/master/src/main/java/ai/cuddle/livy/controler/LivyControler.java
+
+https://github.com/lhfei/spark2-livy-demo/tree/master/src/main/resources
+
+https://github.com/Nimtaa/LivyRest/blob/master/src/main/java/EmbeddedJettyMain.java
+
+https://github.com/yaoqijun/livyDemo/tree/master/src/main
+
+https://github.com/rajashashankmuppirala/LivySP/blob/main/src/main/java/com/shashank/livysp/client/LivyApi.java
+
+https://github.com/kojish/hdinsight-spark-livy-client/blob/master/src/main/java/delsh/livy/LivyBatchClient.java
+
+
 

@@ -1,9 +1,7 @@
 package com.kal.leet
-
-import com.cloudera.livy._
+package com.kal.livy
 
 object LivyClient {
-
 
 
   // Create a new LivyClient instance
@@ -24,10 +22,6 @@ object LivyClient {
   val result = job.get()
 
   println(result)
-
-
-
-
 
 
 }
